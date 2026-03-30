@@ -1,0 +1,22 @@
+# Pastas da Unity (NÃO subir)
+Library/
+Temp/
+Obj/
+Build/
+Builds/
+Logs/
+UserSettings/
+
+# Arquivos automáticos
+*.csproj
+*.unityproj
+*.sln
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+
+# Sistema
+.DS_Store
+Thumbs.db
