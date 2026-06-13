@@ -2,15 +2,21 @@ using UnityEngine;
 
 public class EnemyMov : MonoBehaviour
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
+    private Transform playerPos;
+    [SerializeField] float speed;
+
     void Start()
     {
-        
+        playerPos = GameObject.FindGameObjectWithTag("Player").transform;
     }
 
-    // Update is called once per frame
     void Update()
     {
-        
+       FollowPlayer(); 
+    }
+
+    private void FollowPlayer()
+    {
+        transform.position = Vector2.MoveTowards(transform.position, playerPos.position, speed * Time.deltaTime);
     }
 }
