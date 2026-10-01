@@ -1,0 +1,71 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\marka\\Documents\\Unity Projects\\Jogo-ExpoBentinho\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|c:\\users\\marka\\documents\\unity projects\\jogo-expobentinho\\assets\\script\\gun\\autoaim.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\gun\\autoaim.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|c:\\users\\marka\\documents\\unity projects\\jogo-expobentinho\\assets\\script\\gun\\autofire.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\gun\\autofire.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|c:\\users\\marka\\documents\\unity projects\\jogo-expobentinho\\assets\\script\\player\\playerstats.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\player\\playerstats.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AutoFire.cs",
+              "DocumentMoniker": "C:\\Users\\marka\\Documents\\Unity Projects\\Jogo-ExpoBentinho\\Assets\\Script\\Gun\\AutoFire.cs",
+              "RelativeDocumentMoniker": "Assets\\Script\\Gun\\AutoFire.cs",
+              "ToolTip": "C:\\Users\\marka\\Documents\\Unity Projects\\Jogo-ExpoBentinho\\Assets\\Script\\Gun\\AutoFire.cs",
+              "RelativeToolTip": "Assets\\Script\\Gun\\AutoFire.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-01T21:05:16.568Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "PlayerStats.cs",
+              "DocumentMoniker": "C:\\Users\\marka\\Documents\\Unity Projects\\Jogo-ExpoBentinho\\Assets\\Script\\Player\\PlayerStats.cs",
+              "RelativeDocumentMoniker": "Assets\\Script\\Player\\PlayerStats.cs",
+              "ToolTip": "C:\\Users\\marka\\Documents\\Unity Projects\\Jogo-ExpoBentinho\\Assets\\Script\\Player\\PlayerStats.cs",
+              "RelativeToolTip": "Assets\\Script\\Player\\PlayerStats.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-01T20:01:29.072Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AutoAim.cs",
+              "DocumentMoniker": "C:\\Users\\marka\\Documents\\Unity Projects\\Jogo-ExpoBentinho\\Assets\\Script\\Gun\\AutoAim.cs",
+              "RelativeDocumentMoniker": "Assets\\Script\\Gun\\AutoAim.cs",
+              "ToolTip": "C:\\Users\\marka\\Documents\\Unity Projects\\Jogo-ExpoBentinho\\Assets\\Script\\Gun\\AutoAim.cs",
+              "RelativeToolTip": "Assets\\Script\\Gun\\AutoAim.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAuwBkAAABIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-01T19:58:13.364Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

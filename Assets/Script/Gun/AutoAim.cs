@@ -1,42 +1,54 @@
-
 using UnityEngine;
 
 public class AutoAim : MonoBehaviour
 {
-    public float detectionRange;
+		[SerializeField] float detectionRange;
+		[SerializeField] float detectionInterval = 0.1f;
+		[SerializeField] LayerMask enemyLayer;
 
-    GameObject target;
+		GameObject target;
+		float detectionTimer;
 
-    void Update()
-    {
-        target = FindClosestEnemy();
+		private void Update()
+		{
+				detectionTimer -= Time.deltaTime;
 
-        if (target != null)
-        {
-            Vector2 dir = (target.transform.position - transform.position).normalized;
-            float angle = (Mathf.Atan2(dir.y, dir.x) * Mathf.Rad2Deg);// - 90f;
-            transform.rotation = Quaternion.Euler(0, 0, angle);
-        }
-    }
+				if (detectionTimer <= 0f)
+				{
+						target = FindClosestEnemy();
+						detectionTimer = detectionInterval;
+				}
 
-    GameObject FindClosestEnemy()
-    {
-        GameObject[] enemies = GameObject.FindGameObjectsWithTag("Enemy");
-        GameObject closest = null;
+				if (target == null)
+						return;
 
-        float minDistance = Mathf.Infinity;
+				Vector2 direction = target.transform.position - transform.position;
+				float angle = Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg;
+				transform.rotation = Quaternion.Euler(0f, 0f, angle);
+		}
 
-        foreach (GameObject enemy in enemies)
-        {
-            float distance = Vector2.Distance(transform.position, enemy.transform.position);
+		GameObject FindClosestEnemy()
+		{
+				Collider2D[] enemies = Physics2D.OverlapCircleAll(
+						transform.position,
+						detectionRange,
+						enemyLayer
+				);
 
-            if (distance < minDistance && distance <= detectionRange)
-            {
-                minDistance = distance;
-                closest = enemy;
-            }
-        }
+				GameObject closest = null;
+				float minDistance = Mathf.Infinity;
 
-        return closest;
-    }
+				foreach (Collider2D enemy in enemies)
+				{
+						float distance = (enemy.transform.position - transform.position).sqrMagnitude;
+
+						if (distance < minDistance)
+						{
+								minDistance = distance;
+								closest = enemy.gameObject;
+						}
+				}
+
+				return closest;
+		}
 }

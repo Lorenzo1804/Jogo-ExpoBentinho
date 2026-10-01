@@ -1,38 +1,48 @@
 using UnityEngine;
 
 public class EnemySpawn : MonoBehaviour
-{   
-    
-    [SerializeField] GameObject enemy;
-    [SerializeField] float sizeX = 1f;
-    [SerializeField] float sizeY = 1f;
-    [SerializeField] float spawnCooldown = 1f;
-    
-    private float spawnTime;
+{
+		[SerializeField] GameObject prefab;
+		[SerializeField] Transform center;
+		[SerializeField] float innerRadius, outerRadius;
+		[SerializeField] float interval;
+		float timer;
 
-     void Start()
-    {
-        spawnTime = spawnCooldown;
-    }
+		private void Awake()
+		{
+				if (prefab == null)
+				{ Debug.LogError("Enemy prefab not defined"); }
+				if (center == null)
+				{ Debug.LogError("Enemy spawn center not defined"); }
+		}
 
-    void Update()
-    {
-        if (spawnTime > 0) spawnTime -= Time.deltaTime;
+		private void Update()
+		{
+				timer -= Time.deltaTime;
 
-        if (spawnTime <= 0)
-        {
-            Spawn();
-            spawnTime = spawnCooldown;
-        }
-    }
+				if (timer <= 0f)
+				{
+						Spawn();
+						timer = interval;
+				}
+		}
 
-    void Spawn()
-    {
-        float xPos = (Random.value - 0.5f)* 2 * sizeX + gameObject.transform.position.x;
-        float yPos = (Random.value - 0.5f)* 2 * sizeY + gameObject.transform.position.y;
+		public void Spawn()
+		{
+				Vector2 direction = Random.insideUnitCircle.normalized;
+				float distance = Random.Range(innerRadius, outerRadius);
 
-        var spawn = Instantiate(enemy);
+				Vector3 spawnPosition = center.position;
 
-        spawn.transform.position = new Vector3(xPos, yPos, 0);
-    }
+				spawnPosition.x += direction.x * distance;
+				spawnPosition.y += direction.y * distance;
+
+				// if spawn would be out of screen, try to adjust
+				// if after adjusted, the spawn position
+				// is too near the center skip this spawn
+				spawnPosition = Bounds.instance.Lock(spawnPosition);
+				if (Vector2.Distance(spawnPosition, center.position) < innerRadius) { return; }
+
+				Instantiate(prefab, spawnPosition, Quaternion.identity);
+		}
 }
