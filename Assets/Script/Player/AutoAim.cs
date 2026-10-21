@@ -1,28 +1,34 @@
 using UnityEngine;
 
+[RequireComponent(typeof(PlayerStats))]
 public class AutoAim : MonoBehaviour
 {
-		[SerializeField] float detectionRange;
-		[SerializeField] float detectionInterval = 0.1f;
-		[SerializeField] LayerMask enemyLayer;
+		PlayerStats stats;
 
-		GameObject target;
-		float detectionTimer;
+		[SerializeField] float _range;
+		[SerializeField] float _interval = 0.1f;
+		[SerializeField] LayerMask _layer;
+		float timer;
+
+		private void Awake()
+		{
+				stats = GetComponent<PlayerStats>();
+		}
 
 		private void Update()
 		{
-				detectionTimer -= Time.deltaTime;
+				timer -= Time.deltaTime;
 
-				if (detectionTimer <= 0f)
+				if (timer <= 0f)
 				{
-						target = FindClosestEnemy();
-						detectionTimer = detectionInterval;
+						stats.target = FindClosestEnemy();
+						timer = _interval;
 				}
 
-				if (target == null)
+				if (stats.target == null)
 						return;
 
-				Vector2 direction = target.transform.position - transform.position;
+				Vector2 direction = stats.target.transform.position - transform.position;
 				float angle = Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg;
 				transform.rotation = Quaternion.Euler(0f, 0f, angle);
 		}
@@ -31,8 +37,7 @@ public class AutoAim : MonoBehaviour
 		{
 				Collider2D[] enemies = Physics2D.OverlapCircleAll(
 						transform.position,
-						detectionRange,
-						enemyLayer
+						_range, _layer
 				);
 
 				GameObject closest = null;

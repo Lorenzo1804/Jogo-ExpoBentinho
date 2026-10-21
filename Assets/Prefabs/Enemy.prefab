@@ -108,7 +108,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dcc8f0880d2512ad2bac0755ebb57c8e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Enemy
-  life: 5
+  life: 2
 --- !u!50 &7772603948309304291
 Rigidbody2D:
   serializedVersion: 5

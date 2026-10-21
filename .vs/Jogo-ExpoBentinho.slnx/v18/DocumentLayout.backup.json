@@ -1,12 +1,240 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\marka\\Documents\\Unity Projects\\Jogo-ExpoBentinho\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|c:\\users\\marka\\documents\\unity projects\\jogo-expobentinho\\assets\\script\\player\\playerlife.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\player\\playerlife.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|c:\\users\\marka\\documents\\unity projects\\jogo-expobentinho\\assets\\script\\enemy\\enemymov.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\enemy\\enemymov.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|c:\\users\\marka\\documents\\unity projects\\jogo-expobentinho\\assets\\script\\bullet\\bullet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\bullet\\bullet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|c:\\users\\marka\\documents\\unity projects\\jogo-expobentinho\\assets\\script\\gun\\gun.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\gun\\gun.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|c:\\users\\marka\\documents\\unity projects\\jogo-expobentinho\\assets\\script\\item\\doublegun.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\item\\doublegun.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|c:\\users\\marka\\documents\\unity projects\\jogo-expobentinho\\assets\\script\\item\\iitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\item\\iitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|c:\\users\\marka\\documents\\unity projects\\jogo-expobentinho\\assets\\script\\player\\playerstats.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\player\\playerstats.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|c:\\users\\marka\\documents\\unity projects\\jogo-expobentinho\\assets\\script\\enemy\\enemyspawn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\enemy\\enemyspawn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|c:\\users\\marka\\documents\\unity projects\\jogo-expobentinho\\assets\\script\\enemy\\enemylife.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\enemy\\enemylife.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|c:\\users\\marka\\documents\\unity projects\\jogo-expobentinho\\assets\\script\\bullet\\bulletcollider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\bullet\\bulletcollider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|c:\\users\\marka\\documents\\unity projects\\jogo-expobentinho\\assets\\script\\enemy\\enemycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\enemy\\enemycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|c:\\users\\marka\\documents\\unity projects\\jogo-expobentinho\\assets\\script\\player\\autoaim.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\player\\autoaim.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|c:\\users\\marka\\documents\\unity projects\\jogo-expobentinho\\assets\\script\\player\\playermove.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\player\\playermove.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "EnemySpawn.cs",
+              "DocumentMoniker": "C:\\Users\\marka\\Documents\\Unity Projects\\Jogo-ExpoBentinho\\Assets\\Script\\Enemy\\EnemySpawn.cs",
+              "RelativeDocumentMoniker": "Assets\\Script\\Enemy\\EnemySpawn.cs",
+              "ToolTip": "C:\\Users\\marka\\Documents\\Unity Projects\\Jogo-ExpoBentinho\\Assets\\Script\\Enemy\\EnemySpawn.cs",
+              "RelativeToolTip": "Assets\\Script\\Enemy\\EnemySpawn.cs",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAAAC8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-19T17:26:08.234Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "EnemyMov.cs",
+              "DocumentMoniker": "C:\\Users\\marka\\Documents\\Unity Projects\\Jogo-ExpoBentinho\\Assets\\Script\\Enemy\\EnemyMov.cs",
+              "RelativeDocumentMoniker": "Assets\\Script\\Enemy\\EnemyMov.cs",
+              "ToolTip": "C:\\Users\\marka\\Documents\\Unity Projects\\Jogo-ExpoBentinho\\Assets\\Script\\Enemy\\EnemyMov.cs",
+              "RelativeToolTip": "Assets\\Script\\Enemy\\EnemyMov.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-19T17:26:06.834Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Gun.cs",
+              "DocumentMoniker": "C:\\Users\\marka\\Documents\\Unity Projects\\Jogo-ExpoBentinho\\Assets\\Script\\Gun\\Gun.cs",
+              "RelativeDocumentMoniker": "Assets\\Script\\Gun\\Gun.cs",
+              "ToolTip": "C:\\Users\\marka\\Documents\\Unity Projects\\Jogo-ExpoBentinho\\Assets\\Script\\Gun\\Gun.cs",
+              "RelativeToolTip": "Assets\\Script\\Gun\\Gun.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-09T11:36:11.845Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "IItem.cs",
+              "DocumentMoniker": "C:\\Users\\marka\\Documents\\Unity Projects\\Jogo-ExpoBentinho\\Assets\\Script\\Item\\IItem.cs",
+              "RelativeDocumentMoniker": "Assets\\Script\\Item\\IItem.cs",
+              "ToolTip": "C:\\Users\\marka\\Documents\\Unity Projects\\Jogo-ExpoBentinho\\Assets\\Script\\Item\\IItem.cs",
+              "RelativeToolTip": "Assets\\Script\\Item\\IItem.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-09T12:32:18.357Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "PlayerStats.cs",
+              "DocumentMoniker": "C:\\Users\\marka\\Documents\\Unity Projects\\Jogo-ExpoBentinho\\Assets\\Script\\Player\\PlayerStats.cs",
+              "RelativeDocumentMoniker": "Assets\\Script\\Player\\PlayerStats.cs",
+              "ToolTip": "C:\\Users\\marka\\Documents\\Unity Projects\\Jogo-ExpoBentinho\\Assets\\Script\\Player\\PlayerStats.cs",
+              "RelativeToolTip": "Assets\\Script\\Player\\PlayerStats.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAAACMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-01T20:01:29.072Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "DoubleGun.cs",
+              "DocumentMoniker": "C:\\Users\\marka\\Documents\\Unity Projects\\Jogo-ExpoBentinho\\Assets\\Script\\Item\\DoubleGun.cs",
+              "RelativeDocumentMoniker": "Assets\\Script\\Item\\DoubleGun.cs",
+              "ToolTip": "C:\\Users\\marka\\Documents\\Unity Projects\\Jogo-ExpoBentinho\\Assets\\Script\\Item\\DoubleGun.cs",
+              "RelativeToolTip": "Assets\\Script\\Item\\DoubleGun.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-09T12:41:48.789Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Bullet.cs",
+              "DocumentMoniker": "C:\\Users\\marka\\Documents\\Unity Projects\\Jogo-ExpoBentinho\\Assets\\Script\\Bullet\\Bullet.cs",
+              "RelativeDocumentMoniker": "Assets\\Script\\Bullet\\Bullet.cs",
+              "ToolTip": "C:\\Users\\marka\\Documents\\Unity Projects\\Jogo-ExpoBentinho\\Assets\\Script\\Bullet\\Bullet.cs",
+              "RelativeToolTip": "Assets\\Script\\Bullet\\Bullet.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-19T17:26:00.65Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PlayerLife.cs",
+              "DocumentMoniker": "C:\\Users\\marka\\Documents\\Unity Projects\\Jogo-ExpoBentinho\\Assets\\Script\\Player\\PlayerLife.cs",
+              "RelativeDocumentMoniker": "Assets\\Script\\Player\\PlayerLife.cs",
+              "ToolTip": "C:\\Users\\marka\\Documents\\Unity Projects\\Jogo-ExpoBentinho\\Assets\\Script\\Player\\PlayerLife.cs",
+              "RelativeToolTip": "Assets\\Script\\Player\\PlayerLife.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-09T12:34:25.991Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "EnemyLife.cs",
+              "DocumentMoniker": "C:\\Users\\marka\\Documents\\Unity Projects\\Jogo-ExpoBentinho\\Assets\\Script\\Enemy\\EnemyLife.cs",
+              "RelativeDocumentMoniker": "Assets\\Script\\Enemy\\EnemyLife.cs",
+              "ToolTip": "C:\\Users\\marka\\Documents\\Unity Projects\\Jogo-ExpoBentinho\\Assets\\Script\\Enemy\\EnemyLife.cs",
+              "RelativeToolTip": "Assets\\Script\\Enemy\\EnemyLife.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-19T17:26:05.895Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "BulletCollider.cs",
+              "DocumentMoniker": "C:\\Users\\marka\\Documents\\Unity Projects\\Jogo-ExpoBentinho\\Assets\\Script\\Bullet\\BulletCollider.cs",
+              "RelativeDocumentMoniker": "Assets\\Script\\Bullet\\BulletCollider.cs",
+              "ToolTip": "C:\\Users\\marka\\Documents\\Unity Projects\\Jogo-ExpoBentinho\\Assets\\Script\\Bullet\\BulletCollider.cs",
+              "RelativeToolTip": "Assets\\Script\\Bullet\\BulletCollider.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-19T17:26:04.911Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "EnemyController.cs",
+              "DocumentMoniker": "C:\\Users\\marka\\Documents\\Unity Projects\\Jogo-ExpoBentinho\\Assets\\Script\\Enemy\\EnemyController.cs",
+              "RelativeDocumentMoniker": "Assets\\Script\\Enemy\\EnemyController.cs",
+              "ToolTip": "C:\\Users\\marka\\Documents\\Unity Projects\\Jogo-ExpoBentinho\\Assets\\Script\\Enemy\\EnemyController.cs",
+              "RelativeToolTip": "Assets\\Script\\Enemy\\EnemyController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-19T17:23:21.121Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "PlayerMove.cs",
+              "DocumentMoniker": "C:\\Users\\marka\\Documents\\Unity Projects\\Jogo-ExpoBentinho\\Assets\\Script\\Player\\PlayerMove.cs",
+              "RelativeDocumentMoniker": "Assets\\Script\\Player\\PlayerMove.cs",
+              "ToolTip": "C:\\Users\\marka\\Documents\\Unity Projects\\Jogo-ExpoBentinho\\Assets\\Script\\Player\\PlayerMove.cs",
+              "RelativeToolTip": "Assets\\Script\\Player\\PlayerMove.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAuwAIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-09T12:19:50.542Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "AutoAim.cs",
+              "DocumentMoniker": "C:\\Users\\marka\\Documents\\Unity Projects\\Jogo-ExpoBentinho\\Assets\\Script\\Player\\AutoAim.cs",
+              "RelativeDocumentMoniker": "Assets\\Script\\Player\\AutoAim.cs",
+              "ToolTip": "C:\\Users\\marka\\Documents\\Unity Projects\\Jogo-ExpoBentinho\\Assets\\Script\\Player\\AutoAim.cs",
+              "RelativeToolTip": "Assets\\Script\\Player\\AutoAim.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-09T12:19:39.651Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }

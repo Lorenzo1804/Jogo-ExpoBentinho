@@ -5,10 +5,12 @@ public class PlayerMov : MonoBehaviour
 {
     PlayerStats stats;
     Rigidbody2D body;
+    SpriteRenderer renderer;
     Vector2 direction;
 
 		private void Awake()
 		{
+				renderer = GetComponent<SpriteRenderer>();
 				body = GetComponent<Rigidbody2D>();
         stats = GetComponent<PlayerStats>();
 		}
@@ -17,6 +19,8 @@ public class PlayerMov : MonoBehaviour
     {
 				direction.x = Input.GetAxisRaw("Horizontal");
 				direction.y = Input.GetAxisRaw("Vertical");
+
+        if (direction.x != 0) { renderer.flipX = direction.x > 0; }
 
 				direction.Normalize();
     }
